@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dimer_Lab1>
+            <version>0.1.0</version>
+        </Dimer_Lab1>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <dimer_lab1>
+                    <file>dimer_lab1/mymodule.xml</file>
+                </dimer_lab1>
+            </updates>
+        </layout>
+    </frontend>
+</config>

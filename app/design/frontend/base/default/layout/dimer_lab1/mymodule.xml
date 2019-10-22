@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+    <catalog_product_view>
+        <reference name="product.info.additional">
+            <block type="reports/product_viewed" name="huynany" template="mymodule/recent.phtml"/>
+        </reference>
+    </catalog_product_view>
+    <catalog_category_view>
+        <reference name="content">
+            <block type="core/template" name="kek" template="mymodule/checker.phtml"/>
+        </reference>
+    </catalog_category_view>
+</layout>

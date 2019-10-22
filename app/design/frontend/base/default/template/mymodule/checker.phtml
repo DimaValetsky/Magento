@@ -1,0 +1,4 @@
+
+<?php $inputMessage = Mage::registry('current_category')->getName();
+Mage::getSingleton('core/session')->setWelcomeMessage($inputMessage);
+?>
